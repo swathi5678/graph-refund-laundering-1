@@ -1,0 +1,2 @@
+CARD='Card'
+ACCOUNT='Account'

@@ -1,0 +1,20 @@
+paths:
+  transactions: "data/raw/transactions.csv"
+  refunds: "data/raw/refunds.csv"
+  output_dir: "data/processed"
+  logs_dir: "logs"
+
+graph:
+  directed: true
+
+thresholds:
+  refund_hub_degree: 5
+  min_cycle_length: 2
+  temporal_window_days: 7
+  high_risk_score: 0.7
+
+risk_weights:
+  refund_hub: 0.35
+  channel_entropy: 0.25
+  cycle: 0.20
+  temporal: 0.20
