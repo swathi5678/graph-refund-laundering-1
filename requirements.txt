@@ -3,4 +3,4 @@ networkx
 matplotlib
 plotly
 pyyaml
-streamlit
+streamlit>=1.32.0
