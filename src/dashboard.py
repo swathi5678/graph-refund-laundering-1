@@ -21,7 +21,7 @@ from src.graph.builder import build_graph
 
 # Configure Page
 st.set_page_config(
-    page_title="CitiGuard | Refund Laundering Detection",
+    page_title="Refund Laundering Detection",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -164,7 +164,7 @@ selected_node = None
 # Main Dashboard Logic
 
 def main():
-    st.sidebar.title("CitiGuard Controls")
+    st.sidebar.title("Dashboard Controls")
     
     # Run Pipeline Button
     if st.sidebar.button("Run Analysis Pipeline"):
